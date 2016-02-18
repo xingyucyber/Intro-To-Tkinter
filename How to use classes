@@ -1,0 +1,31 @@
+from tkinter import *
+class control:
+    def __init__(self, boss):
+        frame = Frame(boss)
+        frame.pack()
+        self.printButton = Button(frame, text='WHAT IS NEW?', command=self.printMessage)
+        self.printButton.pack(side=LEFT)
+        self.quitButton = Button(frame, text="Quit", command=frame.quit)
+        self.quitButton.pack(side=LEFT)
+    def printMessage(self):
+        print("WELCOME TO CYBERX BY XINGYU!")
+        print("THIS PROGRAM CAN BE CLOSED BY HITTING THE QUIT BUTTON!")
+
+window = Tk()
+b = control(window)
+window.mainloop()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
