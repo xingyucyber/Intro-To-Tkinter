@@ -1,0 +1,13 @@
+from tkinter import *
+import tkinter.messagebox #This module help you to create system warnings
+                           
+
+awesome = Tk()                      #creating a blank screen
+fake_virus = tkinter.messagebox.showerror('Help','Your computer is hacked')
+
+
+
+
+
+
+awesome.mainloop() 
